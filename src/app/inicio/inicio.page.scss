@@ -1,0 +1,22 @@
+.slide{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+p{
+    position: absolute;
+    font-family: initial;
+    font-size: 54px;
+    color:#a89595;
+    text-shadow: 2px 4px 10px #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}

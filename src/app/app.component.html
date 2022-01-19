@@ -1,0 +1,21 @@
+<ion-app>
+  <ion-menu side="start" type="push" contentId="main">
+    <ion-header>
+      <ion-toolbar color="danger">
+        <ion-title>Catalogo</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>Peliculas</ion-item>
+        <ion-item [routerLink]="['/series']" routerLinkActive="router-link-active" >Series</ion-item>
+        <ion-item>Videjuegos</ion-item>
+        <ion-item>Libros</ion-item>
+        <ion-item>Perifericos</ion-item>
+        <ion-item [routerLink]="['/formulario']" routerLinkActive="router-link-active">Formulario</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>
